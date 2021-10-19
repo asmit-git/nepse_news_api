@@ -123,4 +123,4 @@ app.get('/news/:newspaperId', (req, res) => {
         }).catch(err => console.log(err))
 })
 
-// app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
+app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
